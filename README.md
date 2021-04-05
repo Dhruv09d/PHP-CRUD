@@ -1,7 +1,8 @@
 # PHP-CRUD
-# database schema 
-  databse name : newinfo
+  database name : newinfo
   
+ 
+# Table schema 
   CREATE TABLE IF NOT EXISTS pinfo (
                     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
                     fname VARCHAR(20) NOT NULL,
