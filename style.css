@@ -1,0 +1,39 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* create.php */
+button {
+    padding: 6px 12px;
+    margin: 7px;
+    border: none;
+}
+.home-btn {
+    color:white;
+    background-color: rgb(20, 165, 248);
+}
+.home-btn:hover {
+    background-color:rgb(30, 200, 248);
+}
+
+.action-btn, .del-btn {
+    color:white;
+    padding: 6px 12px;
+    margin: 10px;
+    border: none;
+}
+.action-btn {
+    background-color:  #4CAF50;
+}
+.del-btn {
+    background-color:red;
+}
+
+/* main.php */
+table th {
+    font-size:16px;
+}
+table td {
+    font-size:13px;
+}
